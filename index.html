@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Gestionnaire de Tâches</title>
+</head>
+<body>
+    <div class="task-app">
+        <h1>Gestionnaire de Tâches</h1>
+        <div class="task-list" id="task-list">
+            <?php include 'tasks.php'; ?>
+        </div>
+        <div class="add-task">
+            <input type="text" id="new-task" placeholder="Nouvelle tâche">
+            <button id="add-button">Ajouter</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
